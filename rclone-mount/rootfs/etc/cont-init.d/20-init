@@ -47,4 +47,3 @@ printf "$ConfigDir/$ConfigName" > /var/run/s6/container_environment/ConfigPath
 
 echo -e "${PREFFIX} ${Blue}installing system updates${Color_Off}"
 DetectOS
-AutoUpgrade
